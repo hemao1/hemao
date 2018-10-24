@@ -400,7 +400,107 @@ footer{
 	margin: 30px auto;
 }
 /* 习俗 */
-.local-custom{
+.local-custom-box{
 	width: 100%;
 	background-color: #e03344;
+	height: 600px;
 }
+.local-custom-box .local-custom{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+.local-custom-box .sign-container{
+	position: absolute;
+	top: 52px;
+}
+.local-custom-box .sign-container .vertical-line{
+	width: 1px;
+	background-color: white;
+	height: 440px;
+	left: 16px;
+	position: absolute;
+}
+.local-custom-box .sign-container .first-sign{
+	width: 26px;
+	height: 26px;
+	border-radius: 100px;
+	background-color: white;
+	border: solid 4px #e03344;
+	position: absolute;
+}
+.local-custom-box .sign-container .first-sign > div{
+	width: 20px;
+	height: 20px;
+	border-radius: 100px;
+	background-color: #e03344;
+	margin: 3px auto;
+}
+.local-custom-box .sign-container .garden{
+	width: 14px;
+	height: 14px;
+	border-radius: 100px;
+	background-color: white;
+	border: solid 4px #e03344;
+	position: absolute;
+	left: 5.5px;
+}
+.local-custom-box .sign-container .second-sign{
+	top: 100px;
+}
+.local-custom-box .sign-container .third-sign{
+	top: 205px;
+}
+.local-custom-box .sign-container .fourth-sign{
+	top: 310px;
+}
+.local-custom-box .sign-container .fifth-sign{
+	top: 425px;
+}
+.local-custom-box .text-container{
+	width: 630px;
+	color: white;
+	position: absolute;
+	top: 50px;
+	left: 70px;
+}
+.local-custom-box .text-container h4{
+	font-size: 26px;
+	font-weight: normal;
+}
+.local-custom-box .text-container p{
+	margin-top: 40px;
+}
+.local-custom-box .img-container{
+	position: absolute;
+	top: 60px;
+	right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
