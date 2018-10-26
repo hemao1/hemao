@@ -602,13 +602,15 @@ footer{
 .contact-us-content ul{
 	width: 400px;
 	float: left;
-	display: flex;
-	justify-content: column;
+	margin: 260px 0 0 130px;
 }
 #map-container{
 	width: 660px;
 	height: 400px;
 	float: left;
+}
+.contact-us-content ul li{
+	line-height: 30px;
 }
 
 
